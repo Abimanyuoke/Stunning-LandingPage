@@ -78,8 +78,8 @@ const testimonials = [
 ];
 
 const firstColumn = testimonials.slice(0, 3)
-const secondColumn = testimonials.slice(0, 6)
-const thirdColumn = testimonials.slice(0, 9)
+const secondColumn = testimonials.slice(3, 6)
+const thirdColumn = testimonials.slice(6, 9)
 
 const TestimonialsColumn = (props: { className?: string; testimonials: typeof testimonials }) => (
   <div className={twMerge("flex flex-col gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)]", props.className)}>
