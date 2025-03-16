@@ -26,13 +26,13 @@ export const ProductShowcase = () => {
         </div>
         <div className="relative">
         <Image src={productImage} alt="image" className="mt-10" />
-        <motion.img src={pyramidImage.src} alt="image" height={262} width={262} className="hidden md:block absolute -right-36 -top-32" 
+        <motion.img src={pyramidImage.src} alt="image" height={262} width={262} className="hidden md:block absolute -right-44 -top-32" 
         style={{
-          translateY,
+          translateY: translateY,
         }}/>
         <motion.img src={tubeImage.src} alt="image" width={248} height={248} className=" hidden md:block absolute bottom-24 -left-36" 
         style={{
-          translateY,
+          translateY: translateY,
         }}/>
         </div>
       </div>
